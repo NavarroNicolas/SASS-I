@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(93,93,93,1) 0%, rgba(0,0,0,1) 50%);
+    height: 100px;
+    
+    & &__logo{
+        width: 200px;
+        img{
+            height: 80px;
+            width: auto;
+            padding: 10px;
+        }
+    }
+
+    &__menu{
+        ul{
+            display: flex;
+            align-items: center;
+            li{
+                list-style: none;
+                a{
+                    color: $colorSecundario;
+                    text-decoration: none;
+                    padding: 5px;
+                        &:hover{
+                            color:blue
+                            }
+                }
+            }
+        }
+    }
+
+ }

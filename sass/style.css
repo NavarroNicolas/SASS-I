@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: body black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5d5d5d), color-stop(50%, black));
+  background: linear-gradient(180deg, #5d5d5d 0%, black 50%);
+  height: 100px;
+}
+
+.header .header__logo {
+  width: 200px;
+}
+
+.header .header__logo img {
+  height: 80px;
+  width: auto;
+  padding: 10px;
+}
+
+.header__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu ul li {
+  list-style: none;
+}
+
+.header__menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.header__menu ul li a:hover {
+  color: blue;
+}
+
+section {
+  background-color: black;
+}
+
+section h1 {
+  font-size: 32px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section div p {
+  background-color: gray;
+  color: white;
+  height: 350px;
+  width: 200px;
+  padding: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div img {
+    height: 350px;
+    width: auto;
+    border-radius: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

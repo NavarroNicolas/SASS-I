@@ -1,0 +1,26 @@
+section{
+    background-color: $colorPrincipal;
+    h1{
+        font-size: 32px;
+        padding: 10px;
+        background-color: $colorPrincipal;
+        color: $colorSecundario;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    p{
+        background-color: gray;
+        color: $colorSecundario;
+        height: 350px;
+        width: 200px;
+        padding: 40px;
+        border-radius: 20px;
+        font-size: 20px;
+        overflow: hidden;
+    }
+  }
+}

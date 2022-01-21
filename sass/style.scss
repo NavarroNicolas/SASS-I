@@ -1,0 +1,31 @@
+@import 'vars';
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: &$colorPrincipal;
+}
+
+@import 'header';
+
+ @import 'section';
+        
+@media(max-width:768px){
+    div{
+        flex-direction: column;
+        img{
+            height: 350px;
+            width: auto;
+            border-radius: 20px;
+        }
+    }
+}
+
+
+
+
+
